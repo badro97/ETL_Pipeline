@@ -1,5 +1,6 @@
 # ETL_Pipeline
 
+
 ## 1. ETL 파이프라인 구축
 
 - 데이터 추출 url : [http://ec2-3-37-12-122.ap-northeast-2.compute.amazonaws.com/api/data/log](http://ec2-3-37-12-122.ap-northeast-2.compute.amazonaws.com/api/data/log)
