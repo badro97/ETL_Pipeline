@@ -1,4 +1,4 @@
-# ETL_Pipeline
+# Assignment
 
 
 ## 1. ETL 파이프라인 구축
