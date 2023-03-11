@@ -15,6 +15,8 @@ data = requests.get(url).json()
 ## 복호화, 데이터 저장
 decrypted_data = [ eval(fernet.decrypt(data[i]['data']).decode('ascii')) for i in range(len(data)) ]
 
+print(decrypted_data[0])
+
 ## 문자열 압축
 def str_compressed(data):
     # user_id를 64자에서 44자로 압축
@@ -27,7 +29,7 @@ def str_compressed(data):
     data['user_id'] = compressed_user_id
     
     # HTTP Method를 숫자로 변경
-    data['method'] = {'GET': 1, 'POST': 2}.get(data['method'], 0) # method 값이 없다면 0 -> 데이터 수정
+    data['method'] = {'GET': 1, 'POST': 2}.get(data['method'], 0) # method 기본값 0
 
     # url을 딕셔너리 타입을 사용해 숫자로 변경
     url_dict = {
@@ -45,4 +47,7 @@ def str_compressed(data):
 ## 문자열 압축 완료 데이터 저장 ( list(dict()) )
 str_compressed_json = [ str_compressed(decrypted_data[i]) for i in range(len(data)) ]
 
-print(str_compressed_json)
+print()
+print(str_compressed_json[0])
+
+# print(str_compressed_json)
