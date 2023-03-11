@@ -1,6 +1,7 @@
 import re
 import base64
 import uuid
+import copy
 import requests
 from cryptography.fernet import Fernet
 
@@ -15,10 +16,10 @@ data = requests.get(url).json()
 ## 복호화, 데이터 저장
 decrypted_data = [ eval(fernet.decrypt(data[i]['data']).decode('ascii')) for i in range(len(data)) ]
 
-print(decrypted_data[0])
+
 
 ## 문자열 압축
-def str_compressed(data):
+def str_compress(data):
     # user_id를 64자에서 44자로 압축
     # 변환하려는 원본 바이트 데이터 길이가 3의 배수가 아닌 경우 끝에 '='패딩문자가 붙는다.(base64)
     try:
@@ -45,8 +46,11 @@ def str_compressed(data):
     return data
 
 ## 문자열 압축 완료 데이터 저장 ( list(dict()) )
-str_compressed_json = [ str_compressed(decrypted_data[i]) for i in range(len(data)) ]
+raw = copy.deepcopy(decrypted_data)
+str_compressed_json = [ str_compress(raw[i]) for i in range(len(data)) ]
 
+## 압축 비교
+print(decrypted_data[0])
 print()
 print(str_compressed_json[0])
 
