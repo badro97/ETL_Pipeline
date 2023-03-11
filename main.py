@@ -47,11 +47,11 @@ def str_compress(data):
 
 ## 문자열 압축 완료 데이터 저장 ( list(dict()) )
 raw = copy.deepcopy(decrypted_data)
-str_compressed_json = [ str_compress(raw[i]) for i in range(len(data)) ]
+str_compressed_data = [ str_compress(raw[i]) for i in range(len(data)) ]
 
 ## 압축 비교
 print(decrypted_data[0])
 print()
-print(str_compressed_json[0])
+print(str_compressed_data[0])
 
-# print(str_compressed_json)
+# print(str_compressed_data)
