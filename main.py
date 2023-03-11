@@ -23,7 +23,7 @@ def str_compressed(data):
         compressed_user_id = base64.b64encode(bytes.fromhex(data['user_id'])).decode('utf-8')
     except ValueError:  # 16진수 문자열이 아닌 경우
         compressed_user_id = base64.b64encode(uuid.UUID(data['user_id']).hex).decode('utf-8')
-    # compressed_user_id = base64.b64encode(uuid.UUID(data['user_id'].encode('utf-8')).bytes).decode('utf-8')
+    
     data['user_id'] = compressed_user_id
     
     # HTTP Method를 숫자로 변경
