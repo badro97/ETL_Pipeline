@@ -74,11 +74,14 @@ if not os.path.isfile('./str_compressed_data.json'):
 ## Gzip을 사용한 데이터 압축/저장, 파일크기 반환
 def GZIP(data, filename):
     if not os.path.isfile(filename):
+        # 파일 쓰기
         with gzip.open(filename, 'wb') as f:
             f.write(data.encode('utf-8'))
+        # 쓴 파일 열기
         with gzip.open(filename, 'rb') as f:
             read_data = f.read().decode('utf-8')
-        assert data == read_data # 압축이 깨지지 않고 정상 완료되었다면 continue
+        # 두 파일을 비교하여 압축이 깨지지 않고 정상 완료되었다면 continue, 아니라면 에러출력
+        assert data == read_data
         return os.path.getsize(filename)
     else:
         return os.path.getsize(filename)
