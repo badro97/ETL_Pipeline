@@ -1,0 +1,1302 @@
+[
+    {
+        "user_id": "ebda43f475bb8d35cc18c3dd7b8115cab2bed892c2588b70c42feae58c02dd40",
+        "record_id": 5822,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:11.818Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "be7835abed78dc23de40082222ce56af8da3b492dd785f17283382593da75806",
+        "record_id": 5823,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:12.152Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "d4038d81b261ec584a1fc9f9cecad7f70406e39fa0df3400757e22f333780f4b",
+        "record_id": 5824,
+        "activity": "purchase",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:12.488Z",
+        "detail": {
+            "message": "POST purchase",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "f5d2825fffa0e81e50c6fd2a97e18390de0db49de0b9f14f95e7458c69ec8b4e",
+        "record_id": 5825,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:12.821Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "5658b88806a236b6439a7ecd0a87af2475a02a848095304c6d25981ae5e7e9a9",
+        "record_id": 5826,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:13.154Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "4f41b6fdedda792abe2eb5fd572187fa365f2e52458bc5f8cebbee451874328a",
+        "record_id": 5827,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:13.479Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "4409c919f040e01300d802602a1c57ff4ded4d5aa5c5ea5f16cf11363f986463",
+        "record_id": 5828,
+        "activity": "cart",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:13.813Z",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "5a8872eea42b4ef89a5f912884a55d5077011f4e1f25b2133b3c7bb9d363c8b2",
+        "record_id": 5829,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:14.139Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "025ca19d7b07d7f554fd7cd060b628e628d0f607afa3a6fde17c4488f35716d2",
+        "record_id": 5830,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:14.466Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "8e28c5eb829e92abf7a5a921f42364cbb8b255d7c9861a68a3814a9de95d9d67",
+        "record_id": 5831,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:14.794Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "93f9c262828299ee745a8b6506b45a56d6ddc44303bdd99cd865b839680661b8",
+        "record_id": 5832,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:15.124Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "01ab41be9955d2aa3036ec058f5279077d4e669442f9780aaf261c390fc33d92",
+        "record_id": 5833,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:15.454Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "79ae5bcd32198b7ed0ece9c4f9b04d9172c3d21f5e3eff10700b1d86e05f7136",
+        "record_id": 5834,
+        "activity": "purchase",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:15.783Z",
+        "detail": {
+            "message": "POST purchase",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "39c6915eed2615964e5c37691c017dde8b9d28dd6933e197ea075a2a8ca874f3",
+        "record_id": 5835,
+        "activity": "cart",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:16.109Z",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "9e11c362bc3d3572970b973d5cd86c073da358b6f9bceaa3be65d1a6487f8819",
+        "record_id": 5836,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:16.453Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "f8f3899a82eb30fee34728129408a0f570f7acee7b84d1abc297deb00fb36002",
+        "record_id": 5837,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:16.783Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "0ee95e1b4aa2f4842c6255969ad07ea6b21abd86528bfdf488c728960e3f63ef",
+        "record_id": 5838,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:17.110Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "6af1f692e9496c6d0b668316eccb93276ae6b6774fa728aac31ff40a38318760",
+        "record_id": 5839,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:17.437Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "d604696d6ff7e84d99ab8135f541b271706b7d2520ddf7eb3c351359ae7fc283",
+        "record_id": 5840,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:17.761Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "fa69411a009ffd26a280d4e0a07fe6a44958029ed7f34a0ee167ea614143b7eb",
+        "record_id": 5841,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:18.091Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "234eb90e08264ae004f89dd45e7e647af0e16f8e0a0009a12a8d94668c85e362",
+        "record_id": 5842,
+        "activity": "cart",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:18.421Z",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "9902a59687527714fdd942297dc864049cb59981aac00bfba7bda44e27047229",
+        "record_id": 5843,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:18.749Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "25616f4178f09f6e156042a6eb249280d54d5b1f5331209732b5a9b2a1fae5f7",
+        "record_id": 5844,
+        "activity": "purchase",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:19.077Z",
+        "detail": {
+            "message": "POST purchase",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "a0c12d5078472f31e20796c43ed41b144f955e1e9174915fa6a371a039649dc8",
+        "record_id": 5845,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:19.405Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "b55184dec351ac66077c7a41b0bab64e34b7619517ab46b3d93b6f4a9c981888",
+        "record_id": 5846,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:19.732Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "286c897eba57ce67e79fff80229d9eacddde784b29a18a1d47c17bade5ad1a08",
+        "record_id": 5847,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:20.055Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "625a9c770505e881e9288f09e2099d60025ed5fc470649bc97aa7e40a1f67e13",
+        "record_id": 5848,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:20.387Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "999d493321747978b55c854adccc47234a0709a2cc854bc02df8c8319518fc41",
+        "record_id": 5849,
+        "activity": "cart",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:20.714Z",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "ea65024247a2ed0ed69b7b87f78ca7d5b0f959418eb490c92fb54fcea475a202",
+        "record_id": 5850,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:21.044Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "5787a7c37cfbfc46e4a8700b1cd64c7d6ebcc465d4e781bd622be72890cd9281",
+        "record_id": 5851,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:21.374Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "945ff8d08865c1e62ddda2a22ead7d614c64bed6971b4f58677204b4c7579623",
+        "record_id": 5852,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:21.704Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "ecd8409a7716ba7f20b5ed1c68de689a94636675972d07e0cb1e0c8099e392d1",
+        "record_id": 5853,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:22.039Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "72b31cf00f8ab3967588fad4a32f61622cb162f9b7bc2cfbefba2084557370fa",
+        "record_id": 5854,
+        "activity": "purchase",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:22.373Z",
+        "detail": {
+            "message": "POST purchase",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "7a866153fcd1a9ed6c44f051287622547d959709cd49731684a70dbfac852c58",
+        "record_id": 5855,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:22.710Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "a118106a72bf3449088b34688d6d8ed6801b2ef0484ff1d434844367e615800c",
+        "record_id": 5856,
+        "activity": "cart",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:23.040Z",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "50a0a04f2d67b4a26d3aaa163fa2fb0d80a5457716579587cc45ce5bc89d8fce",
+        "record_id": 5857,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:23.371Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "52f3df9e5b286d9aa3e1a03f72a8275d0e8a1542592b604011b82b0028c197d6",
+        "record_id": 5858,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:23.697Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "1c00e16c0db1f129d7b8b87fad27646fdfc393600d20182fa7eb94682601b913",
+        "record_id": 5859,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:24.019Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "9f1e7d452a124938c72828e53f194c8ee1a683da3a47a157df82688c1a52bccd",
+        "record_id": 5860,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:24.347Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "4d1149f568afc0c6b9759b4bb61b89932ff03a08e9effab79f280ec930b5a3dc",
+        "record_id": 5861,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:24.674Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "5088c1bc42f5cc6a32cdb92d7524ea06febe006baac86a0fc8986a8ee00602bc",
+        "record_id": 5862,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:25.000Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "0322afb553ec2b3fe95f9e73820a34c07da19d5dc5fff0f42416e01f24b1cb2c",
+        "record_id": 5863,
+        "activity": "cart",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:25.330Z",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "e753559bf52404ed6877db546a80e189e22c6ff1ca965d7115a882d4335c9be7",
+        "record_id": 5864,
+        "activity": "purchase",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:25.665Z",
+        "detail": {
+            "message": "POST purchase",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "d49cf7fc88dfb440638ea6e74ed8c528468ac73ba661ce612fe39e9cd701bfc1",
+        "record_id": 5865,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:26.002Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "27d73d98c36f3dc0af6a78ae35b7ac66cbb5b379984500104f18f71864c94fd2",
+        "record_id": 5866,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:26.336Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "599a18be4f4e47d3316b3cf1a7a17a5bf732f71ed68c3784e1cfed8655cace12",
+        "record_id": 5867,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:26.661Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "31d8edb99534fd4800651db4d241d86e0380fa7376718b88590c2d772b41d5f4",
+        "record_id": 5868,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:26.991Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "6357a746f820763fe2061d7be30d48465c9791e1cd5919a55e2e65a4ad948a36",
+        "record_id": 5869,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:27.323Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "7f7af6137ce9bdf5be21a5855fb0134b9ff84cd77d39c4569ff221e2769ff384",
+        "record_id": 5870,
+        "activity": "cart",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:27.649Z",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "8eec27653c19ed078b2f3bae16ff901d16347d7917d2b8e2317914e2437bf324",
+        "record_id": 5871,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:27.976Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "a05198938c6ca8cd56289c6dba6bb8aaa68dfe8e0d7a37df2fb76e48eeba4244",
+        "record_id": 5872,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:28.307Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "81ea96707fb0643653507e2ecc9905deeeb7793c8c8df87fc89681d5af356af7",
+        "record_id": 5873,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:28.637Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "5ca254b5de5623c19fd459b2f49e7aafaf3d797f3294f57c4bb6301afef9ea16",
+        "record_id": 5874,
+        "activity": "purchase",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:28.969Z",
+        "detail": {
+            "message": "POST purchase",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "a1b22f60cfdd66cb036e7fac0d81ea8380bc91d1ed854a37acd79eb66eecb0f5",
+        "record_id": 5875,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:29.302Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "44c875a35e8cb3abd388262d2ab0db64d93b67fd0982aa9dd9ed53320eeeedc2",
+        "record_id": 5876,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:29.636Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "20756d2b18a439fe021e02fdf30ace74ec3887744290a31128ae0190d39d38ed",
+        "record_id": 5877,
+        "activity": "cart",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:29.966Z",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "6704761b3cbf8260c556c3e41399ab8bcdf0b51a98935efc0405bd9ca098de87",
+        "record_id": 5878,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:30.295Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "4eef6101e21be13a930d0fbd788a9dfd96be8792e3ff2bdf07aaab5ad06a928e",
+        "record_id": 5879,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:30.625Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "ae9a3fe9af5b61e41097dbe98a367ffe1d99a2cbf5b5bc42e659a2cd27548900",
+        "record_id": 5880,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:30.956Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "4d378dec1f636c2d88c313ab0e9f8571921a18b9bfe437068df1cb1346a59881",
+        "record_id": 5881,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:31.286Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "efbcc6e235db0bb4ee5503f6b0fd9ff7c45e935efe567961e023cca71eb0c73c",
+        "record_id": 5882,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:31.617Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "c857613e57db97455e0f2f8107279f287b2f29bc4b5d4bd61e2ff53acc3c0d69",
+        "record_id": 5883,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:31.947Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "290a0b92873bdf4e47986dc5208037bad7527653bff700dc53c1e57eb98103c1",
+        "record_id": 5884,
+        "activity": "purchase",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:32.280Z",
+        "detail": {
+            "message": "POST purchase",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "685090b2f8ece990836ce5fbb6636c0d8ba1d9678e5762c5375e3a0fddecf087",
+        "record_id": 5885,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:32.609Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "2b9449f314bf93145f8122906d8dc56c4ca1f116e6db7ad2768d6f9ade29b31e",
+        "record_id": 5886,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:32.935Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "89d6aac5e0b914e3b82820f9691e02803786833387db7f0ad09000b83ee212ee",
+        "record_id": 5887,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:33.268Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "9df82ff1547bdff292926e347ad933ea0af998b93568749faca6b121222a04cf",
+        "record_id": 5888,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:33.598Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "3aa176f89ea6f981249922ad9fea58d82a8a1f528688de488c3ded3fb8c12cf7",
+        "record_id": 5889,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:33.930Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "78a69c6fdc7b95f502f14d3c826b21528318ef248796d5a41478096973dd1ad6",
+        "record_id": 5890,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:34.267Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "b35b291416984646240a337c00fc176246e4e7c02c2c0e6a7a28ab4f34b50f1d",
+        "record_id": 5891,
+        "activity": "cart",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:34.602Z",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "e91907bcf8de57caa6228d0cc4db18c130cd08d7be1610a3a452b53a0072d1ee",
+        "record_id": 5892,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:34.935Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "7b81eb727ed48055fa55c5e03aaa43f27b01bd9b1c8eb38f37a1ca541a79c1f7",
+        "record_id": 5893,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:35.270Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "b912b4176482e0c602e840af42e2b57af77c33cde2630cdc1467c5a9665af986",
+        "record_id": 5894,
+        "activity": "purchase",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:35.610Z",
+        "detail": {
+            "message": "POST purchase",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "d38bc33ee0459c82a00d598caf4dfb28ddbbfd8fb473ece95f0269bd638b7f3f",
+        "record_id": 5895,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:35.937Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "a207c35d8417aeed4c9e78bcf83f936cd8191c702893be62aa690ce16bc909ca",
+        "record_id": 5896,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:36.271Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "9b934e3e71010795f063d1fb964a2d1313fe6bd60f8d61283e86f1f3251dd269",
+        "record_id": 5897,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:36.601Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "eb7046437af1e3e9f711efd5a13b8685a0648a236af159435d297397208eefb1",
+        "record_id": 5898,
+        "activity": "cart",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:36.938Z",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "bf7db3a1fea244ba0c173404b5abb382def24d3bc547ca4f410bae2a311cdf85",
+        "record_id": 5899,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:37.269Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "8722b305341fb1e3f4215fe1ad2322c634d4f21528c9e4f4dbf6d1aba5d6c228",
+        "record_id": 5900,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:37.597Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "142472979dc6cfe2d4c0b44f3c1f6474f9657e6e2c8cc598f70bbcdb4815fec7",
+        "record_id": 5901,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:37.918Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "b6edca7adf1a569634dffeee2240ea7bcebdb4b2cc6291c5a1103b9944f68eda",
+        "record_id": 5902,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:38.248Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "79c794728c6beb64c19efcc1f58332810a90370b0e7fde23a922d753f9dce4a7",
+        "record_id": 5903,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:38.579Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "e5e53c784d5d49de1cabb6e904bf3380026aadcb9769775a268dd304dd9aa2df",
+        "record_id": 5904,
+        "activity": "purchase",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:38.909Z",
+        "detail": {
+            "message": "POST purchase",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "d6a4031733610bb080d0bfa794fcc9dbdcff74834aeaab7c6b927e21e9754037",
+        "record_id": 5905,
+        "activity": "cart",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:39.239Z",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "ccddcd7ec696cfcca56a47b8b6c3d32a6d87e43eb0500630b2084b26a23b7286",
+        "record_id": 5906,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:39.573Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "c24cf8d31cf7e596ba052b7ed00f169b1c2bafb941b01e277910a1c8263c3e89",
+        "record_id": 5907,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:39.901Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "5fbc314fb0b511345465b5b907ec6961328e5e393ff831c8d74912184098bf41",
+        "record_id": 5908,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:40.228Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "794608c9aeeaae5bedb0df6152764af2e94c7fc5f876cea842d84a0573336f37",
+        "record_id": 5909,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:40.558Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "af598ae6250c515b9e8c5b5df1063120245c5b4c402512c99bc01db2278d29ce",
+        "record_id": 5910,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:40.886Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "0fd688a63532750bf141b1a85117bdb5d4ff5c77d7533fe4df1ad0bfffa1e1ea",
+        "record_id": 5911,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:41.213Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "1b31fc8436d208163363a872817df4a7db6a7fdce0145ba2bfb020aa4dfe4114",
+        "record_id": 5912,
+        "activity": "cart",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:41.547Z",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "5966abd0cbfc86f98a186531b2b4ee5f6e910120ce13222f98207203dfc9a9a2",
+        "record_id": 5913,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:41.874Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "c5309ec2caf7b6699ceef86b1c46f72e9fbbdbc22a431dc61407d3aee2b831f2",
+        "record_id": 5914,
+        "activity": "purchase",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:42.206Z",
+        "detail": {
+            "message": "POST purchase",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "91cf42608863db6dc767f5b8e3d6e2f8656016d53b6aaf68e833373587c73bd2",
+        "record_id": 5915,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:42.537Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "8552b874fd59a64333e862c0a1eda2cf54fa62e3ebb0710c7fb6b82858ede198",
+        "record_id": 5916,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:42.862Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "ab79acbdd62e9f9bb4194491b855d057fef36952420149088cb158c3bcb96a62",
+        "record_id": 5917,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:43.200Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "6d78b19a042a64f08cc4df0d42fb91cd757829718e60e82a54e3498f03f3ef32",
+        "record_id": 5918,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:43.652Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "0c0ad5934ba82dd287896d6406d1428b9e9669a995ce7964226aa47ede31d547",
+        "record_id": 5919,
+        "activity": "cart",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:43.982Z",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "8780876d4ec2824442d2e402fd7c82f1bacab29fcd7b2fcac677ee99937c09ee",
+        "record_id": 5920,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:44.312Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "9e15db34897b9d1ee6c67ca354c29e0d3c6e472197afd6afae5f26fa7aee36dc",
+        "record_id": 5921,
+        "activity": "view",
+        "url": "/api/products/product/",
+        "method": "POST",
+        "name": "json_logger",
+        "inDate": "2023-03-10T01:48:44.639Z",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    }
+]

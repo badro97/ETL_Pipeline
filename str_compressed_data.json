@@ -1,0 +1,1302 @@
+[
+    {
+        "user_id": "sr7YksJYi3DEL-rljALdQA69pD9HW7jTXMGMPde4EVyg",
+        "record_id": 5822,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014811818",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "jaO0kt14XxcoM4JZPadYBgvng1q-143CPeQAgiIs5Wrw",
+        "record_id": 5823,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014812152",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "BAbjn6DfNAB1fiLzM3gPSw1AONgbJh7FhKH8n5zsrX9w",
+        "record_id": 5824,
+        "activity": "purchase",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014812488",
+        "detail": {
+            "message": "POST purchase",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "3g20neC58U-V50WMaeyLTg9dKCX_-g6B5Qxv0ql-GDkA",
+        "record_id": 5825,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014812821",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "daAqhICVMExtJZga5efpqQVli4iAaiNrZDmn7NCoevJA",
+        "record_id": 5826,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014813154",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "Nl8uUkWLxfjOu-5FGHQyigT0G2_e3aeSq-LrX9VyGH-g",
+        "record_id": 5827,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014813479",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "Te1NWqXF6l8WzxE2P5hkYwRAnJGfBA4BMA2AJgKhxX_w",
+        "record_id": 5828,
+        "activity": "cart",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014813813",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "dwEfTh8lshM7PHu502PIsgWohy7qQrTviaX5EohKVdUA",
+        "record_id": 5829,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014814139",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "KND2B6-jpv3hfESI81cW0gAlyhnXsH1_VU_XzQYLYo5g",
+        "record_id": 5830,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014814466",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "uLJV18mGGmijgUqd6V2dZwjijF64Kekqv3pakh9CNkyw",
+        "record_id": 5831,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014814794",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "1t3EQwO92ZzYZbg5aAZhuAk_nCYoKCme50WotlBrRaVg",
+        "record_id": 5832,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014815124",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "fU5mlEL5eAqvJhw5D8M9kgAatBvplV0qowNuwFj1J5Bw",
+        "record_id": 5833,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014815454",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "csPSH14-_xBwCx2G4F9xNgea5bzTIZi37Q7OnE-bBNkQ",
+        "record_id": 5834,
+        "activity": "purchase",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014815783",
+        "detail": {
+            "message": "POST purchase",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "i50o3Wkz4ZfqB1oqjKh08wOcaRXu0mFZZOXDdpHAF93g",
+        "record_id": 5835,
+        "activity": "cart",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014816109",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "PaNYtvm86qO-ZdGmSH-IGQnhHDYrw9NXKXC5c9XNhsBw",
+        "record_id": 5836,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014816453",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "cPes7nuE0avCl96wD7NgAg-POJmoLrMP7jRygSlAig9Q",
+        "record_id": 5837,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014816783",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "shq9hlKL_fSIxyiWDj9j7wDuleG0qi9IQsYlWWmtB-pg",
+        "record_id": 5838,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014817110",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "aua2d0-nKKrDH_QKODGHYAavH2kulJbG0LZoMW7MuTJw",
+        "record_id": 5839,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014817437",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "cGt9JSDd9-s8NRNZrn_Cgw1gRpbW_36E2Zq4E19UGycQ",
+        "record_id": 5840,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014817761",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "SVgCntfzSg7hZ-phQUO36w-mlBGgCf_SaigNTgoH_mpA",
+        "record_id": 5841,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014818091",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "8OFvjgoACaEqjZRmjIXjYgI065DggmSuAE-J3UXn5keg",
+        "record_id": 5842,
+        "activity": "cart",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014818421",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "nLWZgarAC_unvaROJwRyKQmQKllodSdxT92UIpfchkBA",
+        "record_id": 5843,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014818749",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "1U1bH1MxIJcytamyofrl9wJWFvQXjwn24VYEKm6ySSgA",
+        "record_id": 5844,
+        "activity": "purchase",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014819077",
+        "detail": {
+            "message": "POST purchase",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "T5VeHpF0kV-mo3GgOWSdyAoMEtUHhHLzHiB5bEPtQbFA",
+        "record_id": 5845,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014819405",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "NLdhlRerRrPZO29KnJgYiAtVGE3sNRrGYHfHpBsLq2Tg",
+        "record_id": 5846,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014819732",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "3d54Symhih1HwXut5a0aCAKGyJfrpXzmfnn_-AIp2erA",
+        "record_id": 5847,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014820055",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "Al7V_EcGSbyXqn5AofZ-EwYlqcdwUF6IHpKI8J4gmdYA",
+        "record_id": 5848,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014820387",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "SgcJosyFS8At-MgxlRj8QQmZ1JMyF0eXi1XIVK3MxHIw",
+        "record_id": 5849,
+        "activity": "cart",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014820714",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "sPlZQY60kMkvtU_OpHWiAg6mUCQkei7Q7Wm3uH94yn1Q",
+        "record_id": 5850,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014821044",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "brzEZdTngb1iK-cokM2SgQV4enw3z7_EbkqHALHNZMfQ",
+        "record_id": 5851,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014821374",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "TGS-1pcbT1hncgS0x1eWIwlF_40IhlweYt3aKiLq19YQ",
+        "record_id": 5852,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014821704",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "lGNmdZctB-DLHgyAmeOS0Q7NhAmncWun8gte0caN5omg",
+        "record_id": 5853,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014822039",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "LLFi-be8LPvvuiCEVXNw-gcrMc8A-Ks5Z1iPrUoy9hYg",
+        "record_id": 5854,
+        "activity": "purchase",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014822373",
+        "detail": {
+            "message": "POST purchase",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "fZWXCc1JcxaEpw2_rIUsWAeoZhU_zRqe1sRPBRKHYiVA",
+        "record_id": 5855,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014822710",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "gBsu8EhP8dQ0hENn5hWADAoRgQanK_NEkIizRojW2O1g",
+        "record_id": 5856,
+        "activity": "cart",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014823040",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "gKVFdxZXlYfMRc5byJ2PzgUKCgTy1ntKJtOqoWP6L7DQ",
+        "record_id": 5857,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014823371",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "DooVQlkrYEARuCsAKMGX1gUvPfnlsobZqj4aA_cqgnXQ",
+        "record_id": 5858,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014823697",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "38OTYA0gGC-n65RoJgG5EwHADhbA2x8SnXuLh_rSdkbw",
+        "record_id": 5859,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014824019",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "4aaD2jpHoVffgmiMGlK8zQnx59RSoSSTjHKCjlPxlMjg",
+        "record_id": 5860,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014824347",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "L_A6COnv-refKA7JMLWj3ATRFJ9WivwMa5dZtLthuJkw",
+        "record_id": 5861,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014824674",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "_r4Aa6rIag_ImGqO4AYCvAUIjBvEL1zGoyzbktdSTqBg",
+        "record_id": 5862,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014825000",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "faGdXcX_8PQkFuAfJLHLLAAyKvtVPsKz_pX55zggo0wA",
+        "record_id": 5863,
+        "activity": "cart",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014825330",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "4ixv8cqWXXEVqILUM1yb5w51NVm_UkBO1od9tUaoDhiQ",
+        "record_id": 5864,
+        "activity": "purchase",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014825665",
+        "detail": {
+            "message": "POST purchase",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "RorHO6ZhzmEv456c1wG_wQ1Jz3_IjftEBjjqbnTtjFKA",
+        "record_id": 5865,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014826002",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "y7WzeZhFABBPGPcYZMlP0gJ9c9mMNvPcCvaniuNbesZg",
+        "record_id": 5866,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014826336",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "9zL3HtaMN4Thz-2GVcrOEgWZoYvk9OR9Mxazzxp6F6Ww",
+        "record_id": 5867,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014826661",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "A4D6c3Zxi4hZDC13K0HV9AMdjtuZU0_UgAZR200kHYbg",
+        "record_id": 5868,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014826991",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "XJeR4c1ZGaVeLmWkrZSKNgY1enRvggdj_iBh174w1IRg",
+        "record_id": 5869,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014827323",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "n_hM1305xFaf8iHidp_zhAf3r2E3zpvfW-IaWFX7ATSw",
+        "record_id": 5870,
+        "activity": "cart",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014827649",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "FjR9eRfSuOIxeRTiQ3vzJAjuwnZTwZ7QeLLzuuFv-QHQ",
+        "record_id": 5871,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014827976",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "po3-jg16N98vt25I7rpCRAoFGYk4xsqM1WKJxtumu4qg",
+        "record_id": 5872,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014828307",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "7rd5PIyN-H_IloHVrzVq9wgeqWcH-wZDZTUH4uzJkF3g",
+        "record_id": 5873,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014828637",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "rz15fzKU9XxLtjAa_vnqFgXKJUtd5WI8Gf1Fmy9J56rw",
+        "record_id": 5874,
+        "activity": "purchase",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014828969",
+        "detail": {
+            "message": "POST purchase",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "gLyR0e2FSjes1562buyw9QobIvYM_dZssDbn-sDYHqgw",
+        "record_id": 5875,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014829302",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "2Ttn_QmCqp3Z7VMyDu7twgRMh1o16Ms6vTiCYtKrDbZA",
+        "record_id": 5876,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014829636",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "7DiHdEKQoxEorgGQ05047QIHVtKxikOf4CHgL98wrOdA",
+        "record_id": 5877,
+        "activity": "cart",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014829966",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "zfC1GpiTXvwEBb2coJjehwZwR2Gzy_gmDFVsPkE5mriw",
+        "record_id": 5878,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014830295",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "lr6HkuP_K98Hqqta0GqSjgTu9hAeIb4TqTDQ-9eIqd_Q",
+        "record_id": 5879,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014830625",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "HZmiy_W1vELmWaLNJ1SJAArpo_6a9bYeQQl9vpijZ__g",
+        "record_id": 5880,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014830956",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "khoYub_kNwaN8csTRqWYgQTTeN7B9jbC2IwxOrDp-FcQ",
+        "record_id": 5881,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014831286",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "xF6TXv5WeWHgI8ynHrDHPA77zG4jXbC7TuVQP2sP2f9w",
+        "record_id": 5882,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014831617",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "ey8pvEtdS9YeL_U6zDwNaQyFdhPlfbl0VeDy-BByefKA",
+        "record_id": 5883,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014831947",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "11J2U7_3ANxTweV-uYEDwQKQoLkoc7305HmG3FIIA3ug",
+        "record_id": 5884,
+        "activity": "purchase",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014832280",
+        "detail": {
+            "message": "POST purchase",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "i6HZZ45XYsU3XjoP3ezwhwaFCQsvjs6ZCDbOX7tmNsDQ",
+        "record_id": 5885,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014832609",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "TKHxFubbetJ2jW-a3imzHgK5RJ8xS_kxRfgSKQbY3FbA",
+        "record_id": 5886,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014832935",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "N4aDM4fbfwrQkAC4PuIS7gidaqxeC5FOO4KCD5aR4CgA",
+        "record_id": 5887,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014833268",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "CvmYuTVodJ-sprEhIioEzwnfgv8VR73_KSkm40etkz6g",
+        "record_id": 5888,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014833598",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "KoofUoaI3kiMPe0_uMEs9wOqF2-J6m-YEkmSKtn-pY2A",
+        "record_id": 5889,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014833930",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "gxjvJIeW1aQUeAlpc90a1geKacb9x7lfUC8U08gmshUg",
+        "record_id": 5890,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014834267",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "RuTnwCwsDmp6KKtPNLUPHQs1spFBaYRkYkCjN8APwXYg",
+        "record_id": 5891,
+        "activity": "cart",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014834602",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "MM0I174WEKOkUrU6AHLR7g6RkHvPjeV8qmIo0MxNsYwQ",
+        "record_id": 5892,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014834935",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "ewG9mxyOs483ocpUGnnB9we4Hrcn7UgFX6VcXgOqpD8g",
+        "record_id": 5893,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014835270",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "93wzzeJjDNwUZ8WpZlr5hguRK0F2SC4MYC6ECvQuK1eg",
+        "record_id": 5894,
+        "activity": "purchase",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014835610",
+        "detail": {
+            "message": "POST purchase",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "3bv9j7Rz7OlfAmm9Y4t_Pw04vDPuBFnIKgDVmMr037KA",
+        "record_id": 5895,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014835937",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "2BkccCiTvmKqaQzha8kJygogfDXYQXru1Mnni8-D-TbA",
+        "record_id": 5896,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014836271",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "E_5r1g-NYSg-hvHzJR3SaQm5NOPnEBB5XwY9H7lkotEw",
+        "record_id": 5897,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014836601",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "oGSKI2rxWUNdKXOXII7vsQ63BGQ3rx4-n3Ee_VoTuGhQ",
+        "record_id": 5898,
+        "activity": "cart",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014836938",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "3vJNO8VHyk9BC64qMRzfhQv32zof6iRLoMFzQEtauzgg",
+        "record_id": 5899,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014837269",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "NNTyFSjJ5PTb9tGrpdbCKAhyKzBTQfseP0IV_hrSMixg",
+        "record_id": 5900,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014837597",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "-WV-biyMxZj3C7zbSBX-xwFCRyl53Gz-LUwLRPPB9kdA",
+        "record_id": 5901,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014837918",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "zr20ssxikcWhEDuZRPaO2gtu3Ket8aVpY03_7uIkDqew",
+        "record_id": 5902,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014838248",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "CpA3Cw5_3iOpItdT-dzkpweceUcoxr62TBnvzB9YMygQ",
+        "record_id": 5903,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014838579",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "Amqty5dpd1omjdME3Zqi3w5eU8eE1dSd4cq7bpBL8zgA",
+        "record_id": 5904,
+        "activity": "purchase",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014838909",
+        "detail": {
+            "message": "POST purchase",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "3P90g0rqq3xrkn4h6XVANw1qQDFzNhC7CA0L-nlPzJ2w",
+        "record_id": 5905,
+        "activity": "cart",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014839239",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "bYfkPrBQBjCyCEsmojtyhgzN3NfsaWz8ylake4tsPTKg",
+        "record_id": 5906,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014839573",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "HCuvuUGwHid5EKHIJjw-iQwkz40xz35Za6BSt-0A8Wmw",
+        "record_id": 5907,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014839901",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "Mo5eOT_4McjXSRIYQJi_QQX7wxT7C1ETRUZbW5B-xpYQ",
+        "record_id": 5908,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014840228",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "6Ux_xfh2zqhC2EoFczNvNweUYIya7qrlvtsN9hUnZK8g",
+        "record_id": 5909,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014840558",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "JFxbTEAlEsmbwB2yJ40pzgr1mK5iUMUVuejFtd8QYxIA",
+        "record_id": 5910,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014840886",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "1P9cd9dTP-TfGtC__6Hh6gD9aIpjUydQvxQbGoURe9tQ",
+        "record_id": 5911,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014841213",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "22p_3OAUW6K_sCCqTf5BFAGzH8hDbSCBYzY6hygX30pw",
+        "record_id": 5912,
+        "activity": "cart",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014841547",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "bpEBIM4TIi-YIHID38mpogWWar0Mv8hvmKGGUxsrTuXw",
+        "record_id": 5913,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014841874",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "n7vbwipDHcYUB9Ou4rgx8gxTCewsr3tmmc7vhrHEb3Lg",
+        "record_id": 5914,
+        "activity": "purchase",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014842206",
+        "detail": {
+            "message": "POST purchase",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "ZWAW1Ttqr2joMzc1h8c70gkc9CYIhj223HZ_W449bi-A",
+        "record_id": 5915,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014842537",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "VPpi4-uwcQx_trgoWO3hmAhVK4dP1ZpkMz6GLAoe2izw",
+        "record_id": 5916,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014842862",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "_vNpUkIBSQiMsVjDvLlqYgq3msvdYun5u0GUSRuFXQVw",
+        "record_id": 5917,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014843200",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "dXgpcY5g6CpU40mPA_PvMgbXixmgQqZPCMxN8NQvuRzQ",
+        "record_id": 5918,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014843652",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "npZpqZXOeWQiaqR-3jHVRwDArVk0uoLdKHiW1kBtFCiw",
+        "record_id": 5919,
+        "activity": "cart",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014843982",
+        "detail": {
+            "message": "POST cart",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "usqyn817L8rGd-6Zk3wJ7gh4CHbU7CgkRC0uQC_XyC8Q",
+        "record_id": 5920,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014844312",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    },
+    {
+        "user_id": "PG5HIZev1q-uXyb6eu423AnhXbNIl7nR7mxnyjVMKeDQ",
+        "record_id": 5921,
+        "activity": "view",
+        "url": 1,
+        "method": 2,
+        "name": "json_logger",
+        "inDate": "230310014844639",
+        "detail": {
+            "message": "POST view",
+            "levelname": "INFO"
+        }
+    }
+]
