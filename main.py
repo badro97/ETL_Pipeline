@@ -43,7 +43,7 @@ def str_compress(data):
     # except ValueError:  # 16진수 문자열이 아닌 경우
     #     compressed_user_id = base64.b64encode(uuid.UUID(data['user_id']).hex).decode('utf-8')
     
-    ## B64UUID 모듈을 사용하여 압축하는 방법 (최대 32자 혀용하므로 문자열을 반으로 나눠서 진행)
+    ## B64UUID 모듈을 사용하여 압축하는 방법 (최대 36자(32자 + '-'4자) 혀용하므로 '-'가 포함되지 않은 64자의 문자열이라면 반으로 나눠서 진행)
     data['user_id'] = B64UUID(data['user_id'][32:]).string + B64UUID(data['user_id'][:32]).string
     
     ## HTTP Method를 숫자로 변경
