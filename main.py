@@ -87,12 +87,16 @@ def GZIP(data, filename):
 
 ## 압축률 비교
 ## Json 파일 크기
-org_file_size = (os.path.getsize('./origin_data.json'))
-str_comp_file_size = (os.path.getsize('./str_compressed_data.json'))
+org_file_size = os.path.getsize('./origin_data.json')
+str_comp_file_size = os.path.getsize('./str_compressed_data.json')
 ## gzip 압축 후 파일 크기
 gzip_str_comp_file_size = GZIP('./str_compressed_data.json', 'comp.gz')
 gzip_org_comp_file_size = GZIP('./origin_data.json', 'org.gz')
 
+## 원본 Json | 문자열 압축 Json
+print('원본 Json: ',org_file_size, 'Bytes')
+print('문자열 압축 Json: ',str_comp_file_size, 'Bytes')
+print('압축률: ', round(((1-((int(str_comp_file_size)/int(org_file_size))))*100), 2), ' %\n')
 
 ## 원본 Json | 원본 Json + Gzip 압축
 print('원본 Json: ',org_file_size, 'Bytes')
