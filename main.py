@@ -152,8 +152,8 @@ def ETL_Pipeline():
     def s3_upload_partitioning():
         s3 = s3_connection()
         all_data = gz_decoding(COMPRESSED_GZIP_PATH)
-        flag = all_data[0]['inDate'] # 실행될 때 마다 기준이 첫 데이터라 로그데이터가 많이 쌓이면 S3호출도 많아진다.
-                                     # 밖으로 빼서 처리하는 방법을 생각해보자.
+        flag = all_data[0]['inDate'] # 실행될 때마다 기준이 첫 데이터라 로그 데이터가 많이 쌓이면 S3 호출도 많아진다.
+                                     # 밖으로 빼서 처리하는 방법을 생각해 보자.
         
         f_year = flag[:2]
         f_month = flag[2:4]
@@ -270,6 +270,6 @@ def ETL_Pipeline():
 
 ## APscheduling, cron 표현식
 scheduler = BlockingScheduler()
-# 매일 13시부터 15시까지 5분 간격으로 실행
-scheduler.add_job(ETL_Pipeline, 'cron', hour='14-16', minute='*/10') # crontab: */5 13-15 * * *
+# 매일 5분 간격으로 실행
+scheduler.add_job(ETL_Pipeline, 'cron', minute='*/5') # crontab: */5 * * * *
 scheduler.start()
