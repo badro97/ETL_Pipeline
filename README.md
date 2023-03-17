@@ -289,7 +289,7 @@ AWS 키 털림 -> 과금폭탄 -> IAM user/액세스 키 삭제, MFA 설정
       
 3. 스케줄링
     - APscheduler, cron표현식
-    - 5분에 간격으로 실행하도록 설정. (crontab: */5 * * * *)  
+    - 5분 간격으로 실행하도록 설정. (crontab: */5 * * * *)  
   
 
 [[AWS] 📚 Athena 사용법 정리 (S3에 저장된 로그 쿼리하기)](https://inpa.tistory.com/entry/AWS-%F0%9F%93%9A-Athena-%EC%82%AC%EC%9A%A9%EB%B2%95-%EC%A0%95%EB%A6%AC-S3%EC%97%90-%EC%A0%80%EC%9E%A5%EB%90%9C-%EB%A1%9C%EA%B7%B8-%EC%BF%BC%EB%A6%AC%ED%95%98%EA%B8%B0)
