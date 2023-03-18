@@ -286,6 +286,7 @@ AWS 키 털림 -> 과금폭탄 -> IAM user/액세스 키 삭제, MFA 설정
       <img width="1087" alt="Screenshot 2023-03-17 at 3 27 48 PM" src="https://user-images.githubusercontent.com/49307262/225829698-3c3c37a6-e3a8-4430-bc95-ea320cbfe8c5.png">
     - 마지막 데이터의 inDate가 14시59분으로 14시에 생성된 데이터들을 잘 담고 있는 것을 확인 할 수 있었다.
     - 일단은 하루종일 돌려보고 최종 수정
+        - 502 error로 돌려보지 못함
       
 3. 스케줄링
     - APscheduler, cron표현식
@@ -293,3 +294,16 @@ AWS 키 털림 -> 과금폭탄 -> IAM user/액세스 키 삭제, MFA 설정
   
 
 [[AWS] 📚 Athena 사용법 정리 (S3에 저장된 로그 쿼리하기)](https://inpa.tistory.com/entry/AWS-%F0%9F%93%9A-Athena-%EC%82%AC%EC%9A%A9%EB%B2%95-%EC%A0%95%EB%A6%AC-S3%EC%97%90-%EC%A0%80%EC%9E%A5%EB%90%9C-%EB%A1%9C%EA%B7%B8-%EC%BF%BC%EB%A6%AC%ED%95%98%EA%B8%B0)
+
+---
+
+## 2023.03.18
+1. 데이터파티셔닝 수정
+    - 돌려보지 못함
+        - api 서버 502 error -> 종료된 듯..
+            - api url, fernet 키 dotenv 적용..
+
+후에 진행할 것들
+- EC2에 레포 클론하고 crontab 스케줄링
+- File Zilla 사용해서 로컬로 데이터 가져와 확인
+- AWS Athena 조회
