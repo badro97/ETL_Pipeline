@@ -38,9 +38,6 @@ dateNum = re.compile('[0-9]')
 
 def ETL_Pipeline():
     
-    url = API_URL
-    key = FERNET_KEY
-    
     ## 문자열 압축 함수
     def str_compress(data):
         ## B64UUID 모듈을 사용하여 압축하는 방법 (최대 36자(32자 + '-'4자) 혀용하므로 '-'가 포함되지 않은 64자의 문자열이라면 반으로 나눠서 진행)
@@ -136,8 +133,6 @@ def ETL_Pipeline():
 
     ## 데이터 파티셔닝 S3 적재 함수
     def s3_upload_partitioning():
-        s3 = s3_connection() # s3 버킷 연결
-        
         comp_data = gz_decoding(COMPRESSED_GZIP_PATH)
         flag = comp_data[0]['inDate']
         
@@ -154,6 +149,7 @@ def ETL_Pipeline():
             day = in_date_str[4:6]
             hour = in_date_str[6:8]
             if year!=f_year or month!=f_month or day!=f_day or hour!=f_hour: # 시간대 별로 데이터가 나뉜다.
+                s3 = s3_connection() # s3 버킷 연결
                 s3.upload_file('./log.gz', AWS_S3_BUCKETNAME, s3_path)       # 시간이 달라지면 모아진 로그데이터 한번에 적재
                 print(f'{s3_path}\nS3 적재 완료')
                 f_year, f_month, f_day, f_hour = year, month, day, hour # 시간대 기준 바꿔주고
@@ -165,7 +161,7 @@ def ETL_Pipeline():
     
     
     
-    decrypted_data, str_compressed_data = json_gen(url, key)
+    decrypted_data, str_compressed_data = json_gen(API_URL, FERNET_KEY)
     json_save(ORIGIN_JSON_PATH, decrypted_data)
     json_save(COMPRESSED_JSON_PATH, str_compressed_data)
     print('Extract(데이터 추출) Complete!')
@@ -183,7 +179,8 @@ def ETL_Pipeline():
     print(f'전체 json 데이터 길이: {len(gz_decoding(ORIGIN_GZIP_PATH))}\n')
 
     if len(gz_decoding(ORIGIN_GZIP_PATH)) % 1200 == 0: # 5분 스케줄링 기준
-        print(f'ETL_Pipeline 가동된지{round(len(gz_decoding(ORIGIN_GZIP_PATH))/1200)} hour 경과\n\n')
+        print(f'ETL_Pipeline 가동된지 {len(gz_decoding(ORIGIN_GZIP_PATH))//1200} hour 경과\n\n')
+
 
 
 
