@@ -136,7 +136,7 @@ def ETL_Pipeline():
 
     ## 데이터 파티셔닝 S3 적재 함수
     def s3_upload_partitioning():
-        s3 = s3_connection() # s3 버킷연결
+        s3 = s3_connection() # s3 버킷 연결
         
         comp_data = gz_decoding(COMPRESSED_GZIP_PATH)
         flag = comp_data[0]['inDate']
@@ -153,11 +153,11 @@ def ETL_Pipeline():
             month = in_date_str[2:4]
             day = in_date_str[4:6]
             hour = in_date_str[6:8]
-            if year!=f_year or month!=f_month or day!=f_day or hour!=f_hour: # 시간대별로 데이터가 나뉜다.
-                s3.upload_file('./log.gz', AWS_S3_BUCKETNAME, s3_path) # 시간이 달라지면 모아진 로그데이터 한번에 적재
+            if year!=f_year or month!=f_month or day!=f_day or hour!=f_hour: # 시간대 별로 데이터가 나뉜다.
+                s3.upload_file('./log.gz', AWS_S3_BUCKETNAME, s3_path)       # 시간이 달라지면 모아진 로그데이터 한번에 적재
                 print(f'{s3_path}\nS3 적재 완료')
                 f_year, f_month, f_day, f_hour = year, month, day, hour # 시간대 기준 바꿔주고
-                list(map(os.remove, ['./log.json', './log.gz'])) # 전 시간에 쌓여있던 로그들 삭제
+                list(map(os.remove, ['./log.json', './log.gz']))        # 전 시간에 쌓여있던 로그들 삭제
             else:
                 json_save('./log.json', [log]) # 시간이 바뀌지 않는다면 그냥 로그데이터를 쌓아놓는다
                 GZIP('./log.json', 'log.gz')
@@ -172,7 +172,7 @@ def ETL_Pipeline():
     print('Extract(데이터 추출) Complete!')
     
     
-    GZIP(ORIGIN_JSON_PATH, ORIGIN_GZIP_PATH) # 모든 데이터를 쌓아놓은 원본파일
+    GZIP(ORIGIN_JSON_PATH, ORIGIN_GZIP_PATH) # 모든 원본 데이터를 쌓아놓은 압축파일
     GZIP(COMPRESSED_JSON_PATH, COMPRESSED_GZIP_PATH)
     print('Transform(데이터 변환) Complete!!')
     
