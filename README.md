@@ -300,10 +300,34 @@ AWS 키 털림 -> 과금폭탄 -> IAM user/액세스 키 삭제, MFA 설정
 ## 2023.03.18
 1. 데이터파티셔닝 수정
     - 돌려보지 못함
-        - api 서버 502 error -> 종료된 듯..
-            - api url, fernet 키 dotenv 적용..
+        - api 서버 502 error -> 종료된 듯..  
+            - api url, fernet 키 dotenv 적용..  
+            
+    - 압축파일을 제거하여 추가 데이터를 처리하는 과정에서 함수 실행될 때마다 삭제되어 시간 반영이 안되는 문제가 발생한다.  
+        - 적재가 된 경우에만 삭제하도록 for문-if문 내부로 옮김.  
+    &nbsp;
+2. 로그가 쌓일수록 읽고 저장하는 횟수가 늘어난다.
+    - 에러 발생  
+        - Execution of job "ETL_Pipeline (trigger: cron[minute='*/1'], next run at: 2023-03-18 14:35:00 KST)" skipped: maximum number of running instances reached (1)  
+        
+    - 스케줄링 시간을 조정해 그에 따라 읽어와야 하는 로그 데이터 수와 처리시간 사이의 절충안을 찾아야 한다.
+        - 5분 스케줄링 = 시간당 1200 개의 로그가 쌓임(초당 4개 이상의 로그 처리 필요함)  
+        
+        - 10분 스케줄링 = 시간당 600 개의 로그가 쌓이며 초당 1개의 로그 처리가 되므로 가장 안정적일 것이라 판단됨.  
+        
+    - 5분 스케줄링 결과. 정상적으로 S3에 데이터가 적재되었음을 확인했다.
+    <img width="1093" alt="Screenshot 2023-03-18 at 4 56 50 PM" src="https://user-images.githubusercontent.com/49307262/226093168-db45b295-e1fb-42b3-bc37-d443b13fb444.png">  
+    <img width="1089" alt="Screenshot 2023-03-18 at 4 56 40 PM" src="https://user-images.githubusercontent.com/49307262/226093149-649452e3-802f-4d9b-b595-df2918450680.png"> 
+    - 15시 3분 이후로 실행. 15:08 ~ 15:58 동안 11번 S3 파일 업로드. 총 1100 개의 로그가 저장되었다.  
+    - But, 16시 33분 이후로 서버로부터 json 데이터를 받아오지 못함
+        - json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)  
+        
+        - API url 504 에러  
+        
+        - 원활한 스케줄링을 위해선 서버가 작동되는 시간을 정확히 알 필요가 있다.  
 
+        
 후에 진행할 것들
-- EC2에 레포 클론하고 crontab 스케줄링
+- EC2에 레포 클론하고 스케줄링
 - File Zilla 사용해서 로컬로 데이터 가져와 확인
 - AWS Athena 조회
