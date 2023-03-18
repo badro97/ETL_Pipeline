@@ -323,18 +323,18 @@ AWS 키 털림 -> 과금폭탄 -> IAM user/액세스 키 삭제, MFA 설정
         - json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)  
         - API url 504 에러  
         - 원활한 스케줄링을 위해선 서버가 작동되는 시간을 정확히 알 필요가 있다.  
-
-- EC2에 레포 클론하고 스케줄링
+&nbsp;
+3. EC2에 레포 클론하고 스케줄링
     - 인스턴스 만든 후 .pem 파일 chmod 400 으로 권한 설정 -> connection.sh 생성 후 실행.
     - 깃 설치 후 깃 레포 클론
     - 계속되는 pip 문제로 requirements.txt 설치는 물론 pip 명령어도 먹통이 되는 상황 발생
         - 아마도 setuptools 버전 문제 혹은 pip 버전 문제일 가능성이 높았지만.. setuptools를 업그레이드 해줘도 아무런 변화가 없었다.
-    - **miniconda 설치 -> 콘다가상환경 생성 (python=3.9) -> 성공**
-    
-- File Zilla 사용해서 로컬 데이터 통신
+    - **miniconda 설치 -> 콘다가상환경 생성 (python=3.9) -> 성공**  
+&nbsp;
+4. File Zilla 사용해서 로컬 데이터 통신
     - .env 파일을 로컬에서 우분투로 넣어줘야 실행이 가능하기떄문
     1. File Zilla Setting -> SFTP -> Add key file -> .pem 파일 추가
     2. Site Manager -> new site -> protocol:SFTP -> Host는 인스턴스의 Public IPv4 DNS -> port: 22 (기본값) -> logon type: Key file -> user: ubuntu -> .pem 파일 추가 -> 항상 신뢰 --> 연결성공.
     3. .env 파일 복사해서 넣어주기
         <img width="1198" alt="Screenshot 2023-03-18 at 11 47 22 PM" src="https://user-images.githubusercontent.com/49307262/226113217-e2ba390d-5428-49e2-ae5c-fba2467abe8f.png">  
-    4. ETL_pipline 인스턴스 내에서 정상 실행됨.
+    4. ETL_pipline 인스턴스 내에서 정상 실행
