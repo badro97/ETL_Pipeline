@@ -318,7 +318,7 @@ AWS 키 털림 -> 과금폭탄 -> IAM user/액세스 키 삭제, MFA 설정
     - 5분 스케줄링 결과. 정상적으로 S3에 데이터가 적재되었음을 확인했다.
         <img width="1093" alt="Screenshot 2023-03-18 at 4 56 50 PM" src="https://user-images.githubusercontent.com/49307262/226093168-db45b295-e1fb-42b3-bc37-d443b13fb444.png">  
         <img width="1089" alt="Screenshot 2023-03-18 at 4 56 40 PM" src="https://user-images.githubusercontent.com/49307262/226093149-649452e3-802f-4d9b-b595-df2918450680.png"> 
-    - 15시 3분 이후로 실행. 15:08 ~ 15:58 동안 쌓인 로그들 16:05 분에 1번의 S3 파일 업로드로 적재 완료. 총 1100 개의 로그가 저장되었다.    
+    - 15시 8분에 실행. 15:08 ~ 15:58 동안 쌓인 로그들 16:05 분에 1번의 S3 파일 업로드로 적재 완료. 총 1100 개의 로그가 저장되었다.    
     - But, 16시 33분 이후로 서버로부터 json 데이터를 받아오지 못함  
         - json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)  
         - API url 504 에러  
@@ -337,4 +337,22 @@ AWS 키 털림 -> 과금폭탄 -> IAM user/액세스 키 삭제, MFA 설정
     2. Site Manager -> new site -> protocol:SFTP -> Host는 인스턴스의 Public IPv4 DNS -> port: 22 (기본값) -> logon type: Key file -> user: ubuntu -> .pem 파일 추가 -> 항상 신뢰 --> 연결성공.
     3. .env 파일 복사해서 넣어주기
         <img width="1198" alt="Screenshot 2023-03-18 at 11 47 22 PM" src="https://user-images.githubusercontent.com/49307262/226113217-e2ba390d-5428-49e2-ae5c-fba2467abe8f.png">  
-    4. ETL_pipline 인스턴스 내에서 정상 실행
+    4. ETL_pipline 인스턴스 내 정상 실행 확인.  
+    
+---
+## 2023.03.20
+  
+  
+1. AWS Glue 크롤러 생성 후 Athena 실행  
+    <img width="1332" alt="Screenshot 2023-03-20 at 12 11 58 PM" src="https://user-images.githubusercontent.com/49307262/226243210-e4b1f7a5-06d8-45f3-a9a9-f47fa64c5578.png">
+    전체 버킷 폴더를 크롤링. array는 한 줄만 들어가있다.  
+    
+    <img width="1319" alt="Screenshot 2023-03-20 at 12 57 12 PM" src="https://user-images.githubusercontent.com/49307262/226243343-138782f0-832e-414b-a507-8badb31e00b9.png">
+
+- JSON 데이터의 형식에 맞춰 테이블은 정상적으로 생성되지만, SELECT * FROM으로 데이터를 확인 해보려 하니 아무런 값도 출력이 안 된다.  
+
+- 쿼리를 맞게 작성한 것인지 모르겠다..
+    - Athena 사용법에 관한 공부가 필요  
+
+- 저장되어있는 JSON 파일의 형식([{}])문제일 수도 있음.  
+    - []는 빼고, 한 줄씩 dict 형식의 로그만 덧붙이는 식으로 대충 저장하면 될런지 잘 모르겠다.
