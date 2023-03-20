@@ -347,9 +347,10 @@ AWS 키 털림 -> 과금폭탄 -> IAM user/액세스 키 삭제, MFA 설정
     <img width="1332" alt="Screenshot 2023-03-20 at 12 11 58 PM" src="https://user-images.githubusercontent.com/49307262/226243210-e4b1f7a5-06d8-45f3-a9a9-f47fa64c5578.png">
     전체 버킷 폴더를 크롤링. array는 한 줄만 들어가있다.  
     
+    아래는 gz파일이 아닌 json파일을 버킷에 따로 업로드하여 살펴본 것.
     <img width="1319" alt="Screenshot 2023-03-20 at 12 57 12 PM" src="https://user-images.githubusercontent.com/49307262/226243343-138782f0-832e-414b-a507-8badb31e00b9.png">
 
-- JSON 데이터의 형식에 맞춰 테이블은 정상적으로 생성되지만, SELECT * FROM으로 데이터를 확인 해보려 하니 아무런 값도 출력이 안 된다.  
+- JSON 데이터의 형식에 맞춰 테이블은 정상적으로 생성되지만, SELECT * FROM으로 데이터를 확인 해보려 하니 아무런 값도 출력이 안 된다. Glue 크롤러를 사용해도 마찬가지다.
 
 - 쿼리를 맞게 작성한 것인지 모르겠다..
     - Athena 사용법에 관한 공부가 필요  
