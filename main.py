@@ -148,12 +148,14 @@ def ETL_Pipeline():
             month = in_date_str[2:4]
             day = in_date_str[4:6]
             hour = in_date_str[6:8]
-            if year!=f_year or month!=f_month or day!=f_day or hour!=f_hour: # 시간대 별로 데이터가 나뉜다.
+            if year!=f_year or month!=f_month or day!=f_day or hour!=f_hour: # 시간대 별로 데이터가 나뉜다
                 s3 = s3_connection() # s3 버킷 연결
                 s3.upload_file('./log.gz', AWS_S3_BUCKETNAME, s3_path)       # 시간이 달라지면 모아진 로그데이터 한번에 적재
                 print(f'{s3_path}\nS3 적재 완료')
-                f_year, f_month, f_day, f_hour = year, month, day, hour # 시간대 기준 바꿔주고
+                f_year, f_month, f_day, f_hour = year, month, day, hour      # 시간대 기준 바꿔주고
                 list(map(os.remove, ['./log.json', './log.gz', COMPRESSED_JSON_PATH, COMPRESSED_GZIP_PATH])) # 전 시간에 쌓여있던 로그, 압축파일들 삭제
+                json_save('./log.json', [log]) # 바뀐 시간대로 로그를 다시 써준다
+                GZIP('./log.json', 'log.gz')
             else:
                 json_save('./log.json', [log]) # 시간이 바뀌지 않는다면 그냥 로그데이터를 쌓아놓는다
                 GZIP('./log.json', 'log.gz')
@@ -178,8 +180,8 @@ def ETL_Pipeline():
     
     print(f'전체 json 데이터 길이: {len(gz_decoding(ORIGIN_GZIP_PATH))}\n')
 
-    if len(gz_decoding(ORIGIN_GZIP_PATH)) % 1200 == 0: # 5분 스케줄링 기준
-        print(f'ETL_Pipeline 가동된지 {len(gz_decoding(ORIGIN_GZIP_PATH))//1200} hour 경과\n\n')
+    if len(gz_decoding(ORIGIN_GZIP_PATH)) % 600 == 0: # 10분 스케줄링 기준
+        print(f'ETL_Pipeline 가동된지 {len(gz_decoding(ORIGIN_GZIP_PATH))//600} hour 경과\n\n')
 
 
 
@@ -189,8 +191,8 @@ def ETL_Pipeline():
 
 ## APscheduling
 scheduler = BlockingScheduler()
-# 5분 간격으로 실행
-scheduler.add_job(ETL_Pipeline, 'interval', minutes=5)
+# 10분 간격으로 실행
+scheduler.add_job(ETL_Pipeline, 'interval', minutes=10)
 try:
     scheduler.start()
 except KeyboardInterrupt:
