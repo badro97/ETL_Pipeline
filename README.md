@@ -30,7 +30,8 @@ API 서버에서 주기적으로 생성되고 있는 암호화된 로그데이�
 &nbsp;  
 
 ![Untitled](https://user-images.githubusercontent.com/49307262/226516012-2b09eb37-dc1b-4ef9-9a4d-99f31b8b152b.png)  
-![image](https://user-images.githubusercontent.com/49307262/226508918-91910ef5-a0e7-457c-8a14-d13a1f0f18d0.png)
+![image](https://user-images.githubusercontent.com/49307262/226508918-91910ef5-a0e7-457c-8a14-d13a1f0f18d0.png)  
+
 Json log Data &rarr; Extract & Transform & Load &rarr; AWS S3 upload &rarr; AWS Athena  
 
 ### 데이터 추출 (Extract)
