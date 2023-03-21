@@ -139,7 +139,8 @@ print('Load(데이터 저장) Complete!!!\n\n')
                         json_bytes = json.dumps(tmp_json).encode('utf-8')
                         f.write(json_bytes)
     ```
-    - gzip 모듈을 사용하여 압축 진행
+    - gzip 모듈을 사용하여 압축 진행  
+    
     - 저장한 Json파일을 불러와 Gzip 압축하여 .gz파일로 저장 (중복 값 무시)  
         - 데이터 손실 및 프로세스 오류 발생 시 비교를 위해 원본 데이터를 로컬에 남겨놓는다.  
             - 파일을 읽고 쓰는 리소스가 필요   
@@ -184,10 +185,12 @@ print('Load(데이터 저장) Complete!!!\n\n')
     - 따라서 json 데이터의 ['inDate']를 기준점으로 설정했다.
         - 저장해놓은 로그를 돌며 시간대 변화를 관찰  
         
-        - S3 객체 업로드 후 데이터 초기화 &rarr; 새로운 데이터 대처   
+        - 시간 내(00:00 ~ 59:59)의 모든 로그를 저장하고  
+        
+        - 시간대가 바뀌면 S3 객체 업로드 후 데이터 초기화 &rarr; 새로운 데이터 대처   
          
     - 3분마다 100개의 json 로그가 생성된다.  
-        - 3분 스케줄링의 경우 시간당 2000개의 로그가 쌓이게 되는데 이를 위해서 1초에 최소 11개 이상의 로그 처리가 필요하다.  
+        - 3분 스케줄링의 경우 시간당 2000개의 로그가 쌓이게 되는데 이를 위해서 초당 최소 11개 이상의 로그 처리가 필요하다.  
         
         - 일반적인 파일 입출력 함수를 사용하는 이상 시스템 과부화가 우려되므로 5분 ~ 10분 스케줄링이 적합하다.  
     &nbsp;  
@@ -206,6 +209,8 @@ print('Load(데이터 저장) Complete!!!\n\n')
 ## 수행 결과  
 
 <img width="1439" alt="Screenshot 2023-03-20 at 7 19 19 PM" src="https://user-images.githubusercontent.com/49307262/226311460-93507ea8-ead0-4f9d-8a5d-448b0cee920b.png">  
+
+<img width="1141" alt="Screenshot 2023-03-21 at 2 30 32 PM" src="https://user-images.githubusercontent.com/49307262/226525972-a3b0001a-b1c8-4146-a67b-af90e162afe7.png">  
 
 - S3 데이터 파티셔닝 업로드 정상 작동
     - 시간 별로 json 데이터가 구분되어 정상적으로 저장된다
