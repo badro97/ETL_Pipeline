@@ -23,4 +23,7 @@ API 서버에서 주기적으로 생성되고 있는 암호화된 로그데이�
 python 3.8.10  
 mysql  Ver 8.0.32-0ubuntu0.20.04.2  
 Ubuntu 20.04.6 LTS (Focal Fossa)  
-Airflow version: 2.5.2
+Airflow version: 2.5.2  
+
+
+[프로젝트 진행과정](https://github.com/badro97/ETL_Pipeline/blob/main/Airflow/History.md)
