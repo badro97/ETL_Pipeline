@@ -17,6 +17,10 @@ API 서버에서 주기적으로 생성되고 있는 암호화된 로그데이�
   
 ## CP2 (Codestates Project 2)
 &nbsp;  
-### Airflow 스케줄링 / spark 분산처리  
-
-진행중
+### Airflow 스케줄링 / spark 분산처리    
+  
+&nbsp;  
+python 3.8.10  
+mysql  Ver 8.0.32-0ubuntu0.20.04.2  
+Ubuntu 20.04.6 LTS (Focal Fossa)  
+Airflow version: 2.5.2
