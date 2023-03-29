@@ -162,7 +162,6 @@ def ETL_Pipeline():
         
     
     
-    
     decrypted_data, str_compressed_data = json_gen(API_URL, FERNET_KEY)
     json_save(ORIGIN_JSON_PATH, decrypted_data)
     json_save(COMPRESSED_JSON_PATH, str_compressed_data)
