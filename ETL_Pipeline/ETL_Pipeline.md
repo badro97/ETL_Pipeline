@@ -222,4 +222,4 @@ print('Load(데이터 저장) Complete!!!\n\n')
 1. AWS Athena 조회, AWS Glue 크롤러 사용법 숙지하고 적용하기  
 
 2. 대용량 파일 프로세스 처리 최적화
-    - Airflow 학습 후 적용
+    - Airflow 학습 후 적용 
