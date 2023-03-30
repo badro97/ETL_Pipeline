@@ -260,7 +260,35 @@ Ubuntu 20.04.6 LTS (Focal Fossa)
 
 airflow webserver, scheduler 정상 작동 확인  
 
-## TO-DO
-1. DAG 개발, ETL파이프라인 스케줄링  
-
+  
+  
 --- 
+
+## 2023.03.30  
+
+스케줄러 강제종료 문제  
+sudo nano /etc/systemd/system/airflow-scheduler.service  
+
+Environment="PATH=/home/ubuntu/airflow/env/bin/airflow:$PATH"
+추가  
+
+~/.bashrc 에 PATH 추가하였으나 계속해서 스케줄러가 작동하지 않는 문제가 발생.  
+
+### 예상되는 원인
+로그기록을 살펴보니 ExecStartPre=/home/ubuntu/airflow/ExecStartPre_airflow-scheduler.sh 부분에서 막힌 것으로 보임.  
+
+-> sudo kill -9 `pgrep -f airflow` 입력하여 모든 프로세스 강제 종료  
+-> airflow standalone 으로 웹서버/스케줄러 실행 -> 문제 해결  
+  &nbsp;  
+  
+1. DAG 파일을 추가한 뒤, 스케줄링(10분 간격) 진행
+    <img width="1440" alt="Screenshot 2023-03-30 at 3 07 40 PM" src="https://user-images.githubusercontent.com/49307262/228745546-f16ef0f1-f718-4338-95cb-6d041f3b40d5.png">  
+    
+    <img width="1157" alt="Screenshot 2023-03-30 at 3 06 05 PM" src="https://user-images.githubusercontent.com/49307262/228745751-eeb59611-b5bf-4ac5-b645-8bd2ea3a5f8e.png">
+    
+    스케줄링 정상 작동 및 s3 버킷 적재 확인.
+
+### 추후 개선 사항
+1. Extract, Transform, Load task를 나눠 dag스케줄링 진행
+2. 로그 확인 용 파일 입출력 함수 호출 시의 리소스 점유를 고려해 etl pipeline 코드 재작성
+    - 일단 둘 다 돌려보고 시간이 적게 걸리면서 에러가 적은 코드 선택하기
