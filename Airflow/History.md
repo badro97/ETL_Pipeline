@@ -277,7 +277,7 @@ Environment="PATH=/home/ubuntu/airflow/env/bin/airflow:$PATH"
 ### 예상되는 원인
 로그기록을 살펴보니 ExecStartPre=/home/ubuntu/airflow/ExecStartPre_airflow-scheduler.sh 부분에서 막힌 것으로 보임.  
 
--> sudo kill -9 `pgrep -f airflow` 입력하여 모든 프로세스 강제 종료  
+-> sudo kill -9 \`pgrep -f airflow\` 입력하여 모든 프로세스 강제 종료  
 -> airflow standalone 으로 웹서버/스케줄러 실행 -> 문제 해결  
   &nbsp;  
   
