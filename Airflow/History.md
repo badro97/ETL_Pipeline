@@ -319,6 +319,10 @@ Environment="PATH=/home/ubuntu/airflow/env/bin/airflow:$PATH"
 
 <img width="1146" alt="Screenshot 2023-04-03 at 2 34 55 PM" src="https://user-images.githubusercontent.com/49307262/229420030-b32d81ff-6fdd-494f-b1e7-391c1574a20d.png">  
 
-- AWS S3 정상 적재 확인
+- AWS S3 정상 적재 확인 (3분 스케줄링)
     - 모두 100개의 로그가 저장되어 있다
-    - 파일 이름은 json로그 시작 시간 (분:초) ~ 마지막 시간 (분:초) 로 파티셔닝
+    - 파일 이름은 json로그 시작 시간 (분:초) ~ 마지막 시간 (분:초) 로 파티셔닝  
+    
+<img width="1440" alt="Screenshot 2023-04-03 at 3 14 40 PM" src="https://user-images.githubusercontent.com/49307262/229426130-bdc99eb8-a513-42ae-8b54-437ae918684c.png">  
+
+- 각 task 별 처리 시간을 비교해 볼 수 있다.
