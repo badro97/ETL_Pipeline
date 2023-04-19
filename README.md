@@ -25,5 +25,6 @@ mysql  Ver 8.0.32-0ubuntu0.20.04.2
 Ubuntu 20.04.6 LTS (Focal Fossa)  
 Airflow version: 2.5.2  
 
+[프로젝트 개발보고서](https://github.com/badro97/ETL_Pipeline/blob/main/Airflow/Airflow.md)  
 
-[프로젝트 진행과정](https://github.com/badro97/ETL_Pipeline/blob/main/Airflow/History.md)
+[프로젝트 진행과정](https://github.com/badro97/ETL_Pipeline/blob/main/Airflow/History.md)  
