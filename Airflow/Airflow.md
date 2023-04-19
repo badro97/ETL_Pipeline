@@ -79,13 +79,17 @@ Json log Data &rarr; Extract & Transform & Load &rarr; AWS S3 upload &rarr; AWS 
 
 - 따라서 xcom, 외부데이터베이스, 로컬파일저장/불러오기 방법을 사용해야 하지만, 그렇게 되면 굳이 클래스로 파이프라인을 작성할 이유가 없다.
 - task 구분의 장점(스케줄링, 에러확인, 유지보수)만을 살리기로 결정하고 task로 각 단계를 구분
-- 마지막 task인 load_task()에서 모든 과정이 실행되고 이때의 데이터만이 최종적으로 사용된다
+- 마지막 task인 load_task()에서 모든 과정이 실행되고 이때의 데이터만이 최종적으로 사용된다  
+
 &nbsp;  
 
 [etl_dag.py](https://github.com/badro97/ETL_Pipeline/blob/main/Airflow/etl_dag.py)
-  
+
 
 &nbsp;  
+
+---  
+ 
 
 ## 수행 결과  
 
